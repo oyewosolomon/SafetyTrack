@@ -49,7 +49,6 @@ export default function Home() {
       <StatsDashboard/>
       <CTASection/>
       <Partners/>
-      <CaseStudiesSection/>
       <Resources/>
 
       <Testimonials/>
