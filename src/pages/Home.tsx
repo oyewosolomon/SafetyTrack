@@ -40,6 +40,7 @@ import Stats from "@/components/sections/Statistics";
 import TeamSection from "@/components/sections/Team";
 import StatsDashboard from "@/components/sections/Statistics";
 import CTASection from "@/components/sections/Cta";
+import Gallery from "@/components/sections/Gallery";
 
 export default function Home() {
   return (
@@ -47,6 +48,7 @@ export default function Home() {
       <Hero/>
       <Features/>
       <StatsDashboard/>
+      <Gallery/>
       <CTASection/>
       <Partners/>
       <Resources/>
