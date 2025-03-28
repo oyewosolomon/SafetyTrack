@@ -50,7 +50,8 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between">
           <a href="#" className="flex items-center space-x-2">
-            <div className="w-10 h-10 rounded-lg bg-gradient-to-r from-blue-500 to-violet-500"></div>
+            {/* <div className="w-10 h-10 rounded-lg bg-gradient-to-r from-blue-500 to-violet-500"></div> */}
+            <img src="/favicon.svg" className='h-8' alt="SafetyTrack" />
             <span className="text-xl font-bold text-white">SafetyTrack</span>
           </a>
           <div className="hidden lg:flex items-center space-x-8">

@@ -49,21 +49,15 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center gap-2 mb-6">
-              <Shield className="w-8 h-8 text-blue-500" />
+            <img src="/favicon.svg" className='h-8' alt="SafetyTrack" />
               <span className="text-2xl font-bold text-white">SafetyTrack</span>
             </div>
             <p className="text-slate-400 mb-6">
               Transforming emergency response through advanced coordination and real-time awareness.
             </p>
             <div className="space-y-4">
-              <div className="flex items-center gap-3 text-slate-400">
-                <MapPin className="w-5 h-5 text-blue-500" />
-                <span>123 Emergency Ave, Suite 500<br />San Francisco, CA 94105</span>
-              </div>
-              <div className="flex items-center gap-3 text-slate-400">
-                <Phone className="w-5 h-5 text-blue-500" />
-                <span>+1 (888) SAFETY-0</span>
-              </div>
+              
+             
               <div className="flex items-center gap-3 text-slate-400">
                 <Mail className="w-5 h-5 text-blue-500" />
                 <span>contact@safetytrack.com</span>
@@ -78,11 +72,10 @@ const Footer = () => {
               {[
                 'About Us',
                 'Features',
-                'Case Studies',
                 'Pricing',
                 'Contact',
                 'Careers',
-                'Press Kit',
+               
                 'Blog'
               ].map((link) => (
                 <li key={link}>
@@ -122,14 +115,12 @@ const Footer = () => {
             <h4 className="text-lg font-semibold text-white mb-6">Resources</h4>
             <ul className="space-y-4">
               {[
-                'Documentation',
-                'API Reference',
+                
                 'Training Videos',
                 'Community Forum',
                 'Support Center',
                 'Security',
-                'Compliance',
-                'System Status'
+                'Compliance'
               ].map((resource) => (
                 <li key={resource}>
                   <a href="#" className="text-slate-400 hover:text-white transition-colors">
